@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	<title>Social</title>
+</head>
+<body>
+	<h1>Minhas redes sociais</h1>
+	<h2>Quem sou eu?</h2>
+	<img src="imagens/minha-foto.jpeg" alt="foto de perfil">
+	<p>Meu nome é Andrew, tenho 29 anos e estou estudando HTML e CSS!</p>
+	<h2>Como falar comigo?</h2>
+	<ul>
+		<li><a href="https://www.facebook.com/andrew.silva.9822" target="_blank" type="external"><img src="imagens/icone-facebook.png" alt="Icone do Facebook"></a> - Me encontre lá no Facebook.</li>
+		<li><img src="imagens/icone-linkedin.png" alt="Icone do Linkedin"><a href="https://www.linkedin.com/in/andrew-araujo-253693106/" target="_blank" type="external">/andrew.araujo</a>- Me adicione lá no LinkedIn.</li>
+	</ul>
+</body>
+</html>	

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, width-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type ="image/x-icon">
+	<title>Listas HTML</title>
+</head>
+<body>
+	<h1>Trabalho com Listas</h1>
+	<h2>Listas Ordenadas</h2>
+	<ol type="i">
+		<li>Acordar</li>
+		<li>Tomar banho</li>
+		<li>Me arrumar para o trabalho</li>
+		<li>Trocar a comida e água dos gatos</li>
+		<li>Tomar café da manhã</li>
+		<li>Passear com o dogão</li>
+		<li>Ir para o trabalho</li>
+		<li>Voltar para casa</li>
+		<li>Jantar</li>
+		<li>Dormir</li>
+	</ol>
+	<h2>Listas não Ordenadas</h2>
+	<ul type="square">
+		<li>Pão</li>
+		<li>Leite</li>
+		<li>Manteiga</li>
+		<li>Requeijão</li>
+		<li>Açucar</li>
+		<li>Café</li>
+	</ul>
+	<h2>Minhas linguagens favoritas</h2>
+	<ol type="1">
+		<li>Antigas</li>
+			<ol type="a">
+				<li>Pascal</li>
+				<li>C++</li>
+			</ol>
+		<li>Novas</li>
+			<ol type="a" start="3">
+				<li>HTML5</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			</ol>
+	</ol>
+	<h2>Meus jogos favoritos</h2>
+	<ul>
+		<li>PC</li>
+			<ol type="1">
+				<li>Souls Series</li>
+					<ul type="square">
+						<li>Dark Souls 1</li>
+						<li>Dark Souls 2</li>
+						<li>Dark Souls 3</li>
+					</ul>
+				<li>MOBA</li>
+					<ul type="square">
+						<li>Dota 1</li>
+						<li>Dota 2</li>
+						<li>League of Legends</li>
+						<li>Heroes of Newearth</li>
+					</ul>
+			</ol>
+		<li>Playstation 1</li>
+			<ol type="1">
+				<li>Grand Theft Auto</li>
+					<ul type="square">
+						<li>Grand Theft Auto 1</li>
+						<li>Grand Theft Auto 2</li>
+					</ul>
+			</ol>
+		<li>Playstation 2</li>
+			<ol type="1">
+				<li>Guitar Hero</li>
+					<ul type="square">
+						<li>Guitar Hero 1</li>
+						<li>Guitar Hero 2</li>
+						<li>Guitar Hero 3</li>
+					</ul>
+			</ol>
+		<li>Super Nintendo</li>
+			<ol type="1">
+				<li>Mario Kart</li>
+				<li>Donkey Kong</li>
+					<ul type="square">
+						<li>Donkey Kong 2</li>
+						<li>Donkey Kong 3</li>
+					</ul>
+			</ol>
+	</ul>
+	<h2>Lista de Definições</h2>
+	<dl>
+		<dt>HTML</dt>
+		<dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+		<dt>CSS</dt>
+		<dd>Linguagem de marcação para a criação do design de um site.</dd>
+		<dt>JavaScript</dt>
+		<dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+	</dl>
+</body>
+</html>
+		
+	
+	

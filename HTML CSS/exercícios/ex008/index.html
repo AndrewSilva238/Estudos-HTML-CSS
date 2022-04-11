@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Formatação de Textos</title>
+</head>
+<body>
+	<h1>Principais formatações</h1>
+	<h2>Negrito / Destaque</h2>
+	<p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+	<p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+	<h2>Itálico / Ênfase</h2>
+	<p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+	<p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+	<h2>Marca texto / Riscar o texto / Sublinhar</h3>
+	<p>Nesta frase, temos uma palavra marcada devido a sua <mark>EXTREMA</mark> importância.</p>
+	<p><del>Este frase foi desconsiderada devido a sua falta de relevância.</del></p>
+	<p>Nesta frase, temos um <ins>trecho sublinhado, dando destaque ao mesmo.</ins></p>
+	<h2>Subscrito / Sobrescrito</h2>
+	<p>A tag &lt;sub&gt; deixa um ou mais carácteres subscritos.
+	<strong>Exemplo:</strong> H<sub>2</sub>O.
+	</p>
+	<p>A tag &lt;sup&gt;deixa um ou mais carácteres sobrescritos.
+	<strong>Exemplo:</strong> x<sup>3</sup>.
+	</p>
+	<h2>Exemplo de código em Python</h2>
+	<pre>
+		<code>
+	num = int (input('Digite um número'))
+	if num % 2 == 0:
+		print(f'O número {num} é par')
+	else:
+		print(f'O número {num} é impar')
+	print('FIM DO PROGRAMA')
+		</code>
+	</pre>
+	<h2>Citações simples / completa</h2>
+	<p>Utilizamos a tag &lt;q&gt; para deixar um trecho do texto entre <q>aspas</q>.</p>
+	<p>A tag &lt;blockquote&gt; é utilizada para citações em blocos. Pode ser colocado o link para o material original também.</p>
+	<blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+		O PHP é uma linguagem para a criação....
+	</blockquote>
+	<h2>Abreviação / Texto Invertido</h2>
+	<p>A tag &lt;abbr&gt; é utilizada para deixar mais claro para o usuário o significado de um texto abreviado.
+	<strong>Exemplo:</strong> <abbr title="Hyper Text Markup Language">HTML</abbr>
+	</p>
+	<p>A tag &lt;bdo&gt; é utilizada para substituir a direcionalidade atual do texto.
+	<strong>Exemplo:</strong> <bdo dir="rtl"> Este texto está invertido no formato THGIR-OT-TFEL</bdo>
+	</p>
+</body>
+</html>
