@@ -17,6 +17,8 @@
 	<p>Music from Uppbeat (free for Creators!) <a href="http://uppbeat.io/t/soundroll/feeling-home" target="_blank" type="external">http://uppbeat.io/t/soundroll/feeling-home</a> - License code: WODUHWBCZVREHNOI</p>
 	<audio preload="metadata" controls autoplay loop>
 		<source src="music/music01.mp3" type="audio/mpeg">
+		<source src="music/music01.ogg" type="audio/ogg">
+		<source src="music/music01.wav" type="image/wav">
 		<p>Seu navegador não suporte áudio <a href="music/music01.mp3" download="music/music01.mp3" type="audio/mpeg"></a></p>
 </body>
 </html>
