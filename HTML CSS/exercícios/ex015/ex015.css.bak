@@ -1,0 +1,22 @@
+@charset"UTF-8";
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: radial-gradient(circle,red,yellow,green);
+		}
+	h1{
+		font-size: 30pt;
+		background-color: #DBAA39;
+		color: darkred;
+		
+		}
+	h2{
+		font-size: 23pt;
+		color: darkred;
+		}
+	p{
+		font-size: 16pt;
+	}
+
+		
