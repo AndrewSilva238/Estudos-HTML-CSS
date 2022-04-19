@@ -120,8 +120,8 @@ body {
 		columns: 3;
 	}
 	
-	.ul-aside li::before{
-		content:'✔️';
+	.ul-aside li{
+		content: '✔️';
 	}
 	
 		
