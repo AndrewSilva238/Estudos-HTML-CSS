@@ -1,0 +1,95 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+@font-face {
+	font-family: 'Passion One';
+	src: url('fontes/PassionOne-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Sriracha';
+	src: url('fontes/Sriracha-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	header {	
+		color: #fff;
+		background: #000;
+		max-width: 100%;
+		height: 400px;
+		margin: 0 auto;
+		align-content: center;
+		
+	}	
+	
+	h1 {
+		
+		font-family: 'Passion One';
+		font-size: 6vw;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 120px;
+		
+		
+	}
+	
+	p {
+		font-family: 'Sriracha';
+		font-size: 2vw;
+		width: 30%;
+		margin-left: 25px;
+		padding: 10px;
+	}	
+		
+	
+	.p-header {
+		font-family: 'Passion One';
+		font-size: 2vw;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.p-align{
+		transform: translate(0, 0);
+	}
+	
+	.p-section2{
+		background-color: rgb(0,0,0,0.4);
+		color: #fff;
+	}
+	
+	.p-section4{
+		background-color: rgb(0,0,0,0.4);
+		color: #fff;
+	}	
+	
+	section {
+		max-width: 100%;
+		max-height: 100%;
+		align-content: center;
+		padding: 10px;
+	}
+
+	.section2{
+		max-width: 100%;
+		max-height: 100%;
+		background-image: url("imagens/background001.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.section4{
+		max-width: 100%;
+		max-height: 100%;
+		background-image: url("imagens/background002.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+	}	
+		
+	
