@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabela01</title>
+	<style>
+		body {
+			font-family: Arial;
+		}
+		
+		table {
+			border-collapse: collapse;
+			width: 200px;
+			height: 200px;
+		}
+		
+		.tableborder {
+			border: 2px solid black;
+			padding: 2px;
+			text-align: center;	
+		}	
+		
+		th {
+			background: #DD6604;
+		}
+
+		td {
+			background: lightgrey;
+		}	
+			
+	</style>
+</head>
+<body>
+	<h1>minha primeira tabela</h1>
+	
+<!--- Hierarquia de tabelas (simples)
+		Table(<table>) = tabela
+			Table row(<tr>) = linha de tabela
+				table header(<th>) = cabeçalho de tabela
+				table data(<td>) = dado da tabela         --->
+				
+	<table>
+		<tr>
+			<th class="tableborder">Números</th>
+			<th class="tableborder">Letras</th>
+		</tr>
+		<tr>
+			<td class="tableborder">1</td>
+			<td class="tableborder">A</td>
+		</tr>
+		<tr>
+			<td class="tableborder">2</td>
+			<td class="tableborder">B</td>
+		</tr>
+	</table>	
+</body>
+</html>	
