@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Accordion</title>
+	<style>
+		/*
+		SPACING SYSTEM (px)
+		2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+		FONT SIZE SYSTEM (px)
+		10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+		*/
+
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+		
+		MAIN COLOR: #087f5b
+		GREY COLOR: #343a40
+		
+		body {
+			font-family: sans-serif;
+			color: #343a40;
+			border-bottom: 8px solid #087f5b;
+		}
+		
+		.accordion {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 30px;
+			width: 700px;
+			margin: 100px auto;
+			gap: 20px;
+		}
+
+		ul {
+			list-style-position: inside;
+		}
+		
+		.tab-01 h2, .tab-02 h2, .tab-03 h2 {
+			font-size: 24px;
+		}
+		
+		.tab-01-title {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		.tab-02-title {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		
+		.tab-03-title {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		.tab-01 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+			padding: 20px;
+			background-color: #eee;
+		}
+		
+		.tab-02 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+			padding: 20px;
+			background-color: #eee;
+		}
+		
+		.tab-03 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+			padding: 20px;
+			background-color: #eee;
+		}
+		
+		.tab-01:hover {
+			border-top: 3px solid green;
+			color: green;
+		}
+		
+		.tab-02:hover {
+			border-top: 3px solid green;
+			color: green;
+		}
+		
+		.tab-03:hover {
+			border-top: 3px solid green;
+			color: green;
+		}
+		
+		#check2:checked + label{
+			content-visibility: hidden;	
+			transition: all 1s ease-in-out;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="accordion">
+		<div class="tab-01">
+			<div class="tab-01-title">
+				<span>01</span>
+				<h2>Where are these chairs assembled?</h2>
+			</div>
+			<input type="checkbox" id="check1" />
+			<label class="tab-01-text" for="check1">
+			</label>
+		</div>
+			<div class="tab-02">
+				<div class="tab-02-title">
+					<span>02</span>
+					<h2>How long do i have to return my chair?</h2>
+				</div>
+				<input type="checkbox" id="check2" />
+				<label class="tab-02-text" for="check2">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<ul>
+						<li>Elius neque ea magnam voluptates delectus maxime</li>
+						<li>Perspiciatis distinctio, deleniti voluptate tenetur aliquid perferendis</li>
+						<li>Aspernatur veniam repelllendus eligendi reiciendis</li>
+						<li>fuga esse deerunt. Aliquid voluptatibus nihil impedit</li>
+					</ul> 
+				</label>
+			</div>
+		<div class="tab-03">
+			<div class="tab-03-title">
+				<span>03</span>
+				<h2>Do you ship to countries outside the EU?</h2>
+				<input type="checkbox" id="check3" />
+				<label class="tab-03-text" for="check3">
+				</label>
+			</div>
+		</div>	
+	</div>		
+</body>
+</html>	
