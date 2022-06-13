@@ -12,6 +12,7 @@ html  {
 	/* 10px / 16px = 0.625 = 62.5% */
 	/* Percentage of user's browser font-size setting */  
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 body {
@@ -19,6 +20,9 @@ body {
 	line-height: 1;
 	font-weight: 400;
 	color: #555;
+	
+	/* Only works if there is nothing absolutely positioned in relation to body */
+	overflow-x: hidden;
 }
 
 
@@ -34,7 +38,8 @@ body {
 	
 	/* Because we want header to be sticky later */
 	height: 9.6rem;
-	padding: 0 4.8rem 0 9.6rem;
+	padding: 0 4.8rem;
+	position: relative;
 }
 
 .logo {
@@ -74,6 +79,24 @@ body {
 
 .main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active {
 	background-color: #cf711f;
+}
+
+/* Mobile */
+.btn-mobile-nav {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+}
+
+.icon-mobile-nav {
+	height: 4.8rem;
+	width: 4.8rem;
+	color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+	display: none;
 }
 
 /****************************************/
@@ -217,7 +240,7 @@ body {
 	/* 60% of parent's width */
 	padding-bottom: 40%;
 	background-color: #fdf2e9;
-	box-shadow: 0 0 0 10px #fae5d3, 0 0 0 20px #f8d8bd, 0 0 0 30px #f5cba7, 0 0 0 40px #f3bf91, 0 0 0 50px #f0b27a, 0 0 0 60px #eea564, 0 0 0 70px #eb984e, 0 0 0 80px #e98b38, 0 0 0 90px #e67e22;	
+	box-shadow: 0 0 0 10px #fae5d3, 0 0 0 20px #f8d8bd, 0 0 0 30px #f5cba7, 0 0 0 40px #f3bf91, 0 0 0 50px #f0b27a;	
 }
 
 .step-img {
@@ -322,7 +345,8 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
-	font-size: 1.8rem;	
+	font-size: 1.8rem;
+	line-height: 1.2;
 }
 
 .all-recipes {
@@ -657,14 +681,16 @@ body {
 }
 
 .footer-logo {
-	display: block;
+	display: flex;
+	justify-content: center;
 }
 
 .social-links {
 	display: flex;
-	margin: 2.4rem 0 3.6rem 0;
+	margin: 3.6rem 0 4.8rem 0;
 	gap: 3rem;
 	list-style-type: none;
+	justify-content: center;
 }
 
 .social-links a {
@@ -684,6 +710,28 @@ body {
 	font-size: 1.4rem;
 	margin-top: 1.2rem;
 	color: #777;
+	text-align: center;
+}
+
+
+.adress-col {
+	justify-self: center;
+	text-align: center;
+}
+	
+.nav1-col {
+	justify-self: center;
+	text-align: center;
+}
+	
+.nav2-col {
+	justify-self: center;
+	text-align: center;
+}
+	
+.nav3-col {
+	justify-self: center;
+	text-align: center;
 }
 
 .contacts p {

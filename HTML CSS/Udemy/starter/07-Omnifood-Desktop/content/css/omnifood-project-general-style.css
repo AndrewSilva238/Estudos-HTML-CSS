@@ -21,6 +21,7 @@
 	Small: 1.05;
 	Medium: 1.2;
 	Paragraph default: 1.6;
+	Large: 1.8;
 	
 	- Letter spacing
 	0.5px;
@@ -109,6 +110,7 @@
 .heading-primary {
 	font-size: 5.2rem;
 	line-height: 1.05;
+	letter-spacing: -2.5px;
 	margin-bottom: 3.2rem;
 }
 
